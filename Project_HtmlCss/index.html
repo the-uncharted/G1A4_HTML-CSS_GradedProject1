@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <header><h1 class="header-title">My Pharmacy</h1></header>
+    <nav class="navigation-bar">
+      <ul class="nav-items">
+        <li class="links link1">Home</li>
+        <li class="links link2">
+          Our Medicines
+          <ul class="DDL2">
+            <li class="DDlinks2">Fever</li>
+            <li class="DDlinks2">Muscle Pain</li>
+            <li class="DDlinks2">Cold and Cough</li>
+          </ul>
+        </li>
+        <li class="links link3">
+          Health Care
+          <ul class="DDL3">
+            <li class="DDlinks3">Baby Care</li>
+            <li class="DDlinks3">Skin Care</li>
+            <li class="DDlinks3">Home Care</li>
+            <li class="DDlinks3">Personal Care</li>
+            <li class="DDlinks3">Pet Care</li>
+          </ul>
+        </li>
+        <li class="links link1">
+          <a class="form-link active" href="/lab-form.html">Lab Test</a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1585995603996-95c967a3742b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y292aWQxOXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhlYWx0aGNhcmUlMjBzdG9yZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWNpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="card1">
+      <h3>Covid Care</h3>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Covid Test Kit</h5>
+            <img
+              src="https://images.unsplash.com/photo-1608796155433-b89a8e09d498?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y292aWQlMjB0ZXN0JTIwa2l0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 40/- <br />
+                Offer Price: Rs. 30/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Covid Essentials</h5>
+            <img
+              src="https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/01/08134907/products-for-covid-.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 240/- <br />
+                Offer Price: Rs. 170/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Sanitizer Bottle</h5>
+            <img
+              src="data:image/jpeg;base64,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"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 100/- <br />
+                Offer Price: Rs. 75/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Mask</h5>
+            <img src="https://nypost.com/wp-content/uploads/sites/2/2021/12/kf94-mask-deals.png?w=1024" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 50/- <br />
+                Offer Price: Rs. 25/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <h3>Diabetes Care</h3>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Tablets</h5>
+            <img src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/News/4559-pills-1296x728-header.jpg?w=1155&h=1528" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 400/- <br />
+                Offer Price: Rs. 250/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Chyawanprash</h5>
+            <img src="https://images.hindustantimes.com/img/2021/11/30/1600x900/Chyavan_1638257613354_1638257638635.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 600/- <br />
+                Offer Price: Rs. 300/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Toothpaste</h5>
+            <img src="https://cpimg.tistatic.com/06498502/b/4/Ayurvedic-Toothpaste.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 150/- <br />
+                Offer Price: Rs. 80/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h5 class="card-title">Biscuits</h5>
+            <img src="https://mishry.com/wp-content/uploads/2020/03/Britannia-Nutri-Choice-Sugar-Free-Cracker-Review-1024x576.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Rs. 60/- <br />
+                Offer Price: Rs. 30/-
+              </p>
+              <button type="button" class="btn btn-outline-info">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">©️ Only for demonstration purposes.</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

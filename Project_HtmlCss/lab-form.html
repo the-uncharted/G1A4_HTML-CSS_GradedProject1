@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Lab Test Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-text">
+        <form class="row g-3">
+          <h3>1. Patient Details</h3>
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Full Name" />
+          </div>
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Patient ID (If Exists)"
+            />
+          </div>
+          <div class="col-md-6">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Contact Number"
+            />
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Email ID" />
+          </div>
+          <h3>2. Address</h3>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div>
+            <h3>3. Choose Test</h3>
+            <p class="info-message">
+              (Please choose atleast one test type to proceed.)
+            </p>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck"> i. CBC </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck">
+                  ii. Lipid Profile Test
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck">
+                  iii. Complete Urine
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label" for="gridCheck">
+                  iv. Thyroid Stimulating Hormone(TSH)
+                </label>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" />
+              <label class="form-check-label" for="gridCheck">
+                v. Glucose Test
+              </label>
+            </div>
+          </div>
+          <div>
+            <h3>4. Do you want a hard copy of the test?</h3>
+            <select class="form-select">
+              <option selected>Open this select menu</option>
+              <option value="1">Yes</option>
+              <option value="2">No</option>
+            </select>
+          </div>
+          <div>
+            <h3>5. Choose a date and time for the test.</h3>
+            <input type="datetime-local" />
+          </div>
+        </form>
+      </div>
+      <div class="form-image">
+          <img
+            src="https://images.unsplash.com/photo-1639772823849-6efbd173043c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxhYiUyMHRlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+      </div>
+    </div>
+    <div class="form-buttons">
+      <div class="reset-form">
+        <button type="reset" class="btn btn-outline-secondary">Reset</button>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
